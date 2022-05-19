@@ -1,0 +1,119 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: inline-flex;
+    padding: 10px;
+    max-height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+}
+
+#logo {
+    height: 50px;
+    margin: auto 10px;
+}
+
+.missionBackground img {
+    width: 1200px;
+    height: 700px;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.one {
+    position: relative;
+}
+
+.mission {
+    position: absolute;
+    top: 40%;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.two {
+    display: inline-block;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.teaPics {
+    width: 300px;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div h4 {
+    margin: 0;
+}
+
+.locations {
+    margin: 50px;
+    background-image: url('./images/img-locations-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 500px;
+}
+
+div span {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.spots div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.spots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
